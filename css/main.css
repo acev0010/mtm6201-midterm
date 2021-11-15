@@ -1,0 +1,1107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+ 
+}
+
+/* ----------------------------
+  ------- Custom styles -----
+----------------------------- */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+p + p {
+  margin-top: 8px;
+}
+
+body {
+  line-height: 1.5;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  line-height: inherit;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  
+  /* top left-right bottom */
+  margin: 0.5em 0 0.5em;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 3.375rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+/* LoVe HAte */
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.nav-list img {
+  width: 70%;
+  border-style: none;
+}
+
+.border {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+  color: #cfe0af;
+  border-bottom: 4px solid #cfe0af;
+  
+}
+
+.currentlink {
+  color: #cfe0af;
+  border-bottom: 4px solid #cfe0af;
+}
+
+
+.nav-list img a:hover {
+  list-style: none;
+}
+
+.main-nav img {
+  width: 30%;
+  margin-left: 35%;
+
+}
+
+.main-nav ul li:first-of-type {
+ border-style : none;
+ border-right: none;
+ border-bottom: none;
+}
+
+.main-nav ul li:first-child a:hover {
+  border-bottom: none;
+}
+
+.main-nav ul li:last-of-type {
+border-style : none;
+ border-right: none;
+}
+
+.main-nav {
+  color:  #4C366B;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: bello-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+   
+}
+
+/* ice cream cones */
+
+.ice-list {
+  color: white;
+  
+}
+
+/*****************************
+        CSS Animation
+******************************/
+
+
+
+.ice-list img{
+  transition: all 0.3s;
+  display: block;
+  opacity: 0.5;
+  transform: scale(1);
+}
+
+.ice-list img:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+
+.nav-list i {
+  vertical-align: middle;
+  color: #000000;
+  
+}
+
+#button-nav:hover,
+#button-nav:hover i
+ {
+  
+  color: #cfe0af;
+  
+}
+
+#button-nav {
+  border: none;
+  background-color: white;
+  
+}
+
+.btn2:hover {
+color:black;
+}
+
+
+.main-nav ul li {
+padding-top: 1rem;
+padding: 10px 10px 10px 10px;
+
+}
+
+
+.main-nav img {
+  display: inherit 
+}
+
+
+
+
+/* Banner/header section */
+
+.banner{
+  background-color: #4C366B;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px;
+  overflow: hidden;
+}
+
+.banner-center {
+  
+  color:#cfe0af;
+  padding: 20px 20px 10px 10px;
+  font-family: epicursive, sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+.banner-center h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+
+/* Services section */
+
+.servicesection {
+  padding: 10px 10px 20px 10px;
+  margin-left: 20%;
+}
+
+.triangle-two {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 50px 100vw;
+    border-color: transparent transparent white transparent;
+  }
+
+  .triangle-one {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 0 100vw;
+    border-color: white transparent transparent transparent;
+    padding: 10px 10px 10px 10px;
+   
+    }
+
+
+.servicesection h2 {
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.container-1,
+.container-2 {
+  background-color:#7CA982;
+  width: 90%;
+  
+}
+
+
+.container-1 a,
+.container-2 a {
+  text-decoration: none;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  color: #E0EEC6;
+  background-color: #024E36;
+  padding: 20px 5px 10px 5px;
+  margin-top: -6px;
+  font-family: bello-pro, sans-serif;
+  width: 100%;
+  
+}
+
+
+.container-1 img ,
+.container-2 img {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+
+}
+
+
+
+/* contact */
+
+section.contact h2 {  
+      
+  font-family: epicursive, sans-serif;
+  color: #4C366B;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.person h3 {
+  margin: 0px;
+  margin-top: -20px;
+  padding-right: 0px;
+}
+
+.person img {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.person q {
+  background:#7CA982;
+  border-radius: 25px;
+ padding: 30px;
+ width: 60%;
+ margin-top: 2rem;
+ float: right;
+ font-family: bello-pro, sans-serif;
+ color:#E0EEC6;
+ text-align: center;
+ font-size: 1.2rem;
+}
+
+.contact {
+  padding: 10px 10px 10px 10px;
+}
+
+.delivey {
+  text-align: center;
+}
+
+
+.delivery i {
+  font-size: 5rem;
+  display: inline-block;
+}
+
+.box1 {
+margin-bottom: 2rem;
+}
+
+.box1 p {
+  padding-left: 100px;
+  font-size: large;
+}
+
+.box1 i {
+  float: left;
+}
+
+.box2 {
+  margin-bottom: 2rem;
+  }
+  
+  .box2 i {
+    float: left;
+  }
+
+  .box2 p {
+    padding-left: 100px;
+    font-size: large;
+  }
+
+.delivery p {
+  color:#7CA982;
+}
+
+
+.contact a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+  
+}
+
+.location h4 {
+  color: #7CA982;
+  text-align: center;
+}
+
+.location iframe {
+  width: 100%
+}
+
+.location p {
+  color: #7CA982;
+  text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+  background-color:#4C366B;
+  color:white;
+  padding: 0 10px 10px 20px;
+  overflow: hidden;
+}
+
+footer a {
+  color:#cfe0af;
+}
+
+
+
+
+/* -------------------------------
+        Mobile Additional Styles
+---------------------------------- */
+
+@media screen and (max-width: 760px) {
+
+.ice-list {
+  font-size: 0;
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 1;
+}
+
+.ice-list ul li {
+  font-size: 0;
+}
+
+.ice-img {
+  width: 50%;
+}
+
+.lime {
+  width: 0;
+}
+
+.ice-img {
+  animation: beat .60s infinite alternate;
+	transform-origin: center;
+  transition: none;
+
+}
+
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+}
+
+.ice-list img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+/* ---------------------
+---   MENU PAGE -------
+-------------------- */
+
+
+h1 {
+  padding-left: 25%;
+}
+
+.itemsection{
+  margin: 10px 30px 10px 30px;
+}
+
+.itemsection img {
+  width: 100%;
+  border: 4px solid #024E36;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  background-color:#cfe0af;
+  padding: 1rem;
+  width: 90%;
+  margin: 1rem;
+}
+
+
+.item-1 a,
+.item-2 a,
+.item-3 a,
+.item-4 a,
+.item-5 a,
+.item-6 a {
+  text-decoration: none;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+  color: #E0EEC6;
+  background-color: #024E36;
+  padding: 20px 5px 10px 5px;
+  margin-top: -6px;
+  font-family: bello-pro, sans-serif;
+  width: 100%;
+  
+}
+
+.btns {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.btn4 {
+  text-decoration: none;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  color: #E0EEC6;
+  background-color:#7CA982;
+  font-family: bello-pro, sans-serif;
+  width: 50%;
+  border-radius: 25px;
+
+  width: 200px;
+
+}
+
+.btn5 {
+  text-decoration: none;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  color:#7CA982;
+  font-family: bello-pro, sans-serif;
+  border-radius: 25px;
+  width: 20%;
+  margin-left: -1rem;
+}
+
+.btn4:hover,
+.btn5:hover {
+  color: #024E36;
+}
+
+/* ---------------------
+---   MESSAGE PAGE -------
+-------------------- */
+
+
+.message {
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  color: #024E36;
+  background-color:#cfe0af;
+}
+
+#fullname {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#email{
+  width: 100%;
+  height: 30px;
+ margin-bottom: 15px;
+ margin-top: 10px;
+}
+
+#message {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.message label {
+  display: initial;
+}
+
+.message a {
+  text-decoration: none;
+  display: inline-block;
+  background-color:#7CA982;
+  color:#E0EEC6;
+  font-size: 20px;
+  
+}
+
+.btn6 {
+  text-decoration: none;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  color:#7CA982;
+  font-family: bello-pro, sans-serif;
+  border-radius: 25px;
+  width: 22%;
+  
+  
+  
+}
+
+.btn6:hover,
+.btn6:focus {
+  color:#024E36;
+  
+}
+
+
+
+/* 
+/* -------------------------------
+        Desktop Styles
+---------------------------------- */
+
+@media screen and (max-width: 1100px) and (min-width: 760px) {
+
+  .ice-list {
+    color: #4C366B;
+    width: 1200px;
+    margin-left: -160px;
+    
+  }
+
+  .cookie {
+    width: 0;
+  }
+
+  .lime {
+    width: 0;
+  }
+
+  .itemsection {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin: 2rem 10rem 0rem 10rem
+  }
+
+  
+}
+
+@media screen and (max-width: 940px) and (min-width: 760px) {
+
+  .itemsection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+    margin: 2rem 10rem 0rem 10rem;
+    
+    
+  }
+
+
+}
+
+@media screen and (min-width: 940px) {
+
+  .itemsection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin: 2rem 10rem 0rem 10rem
+   
+   
+  }
+
+
+}
+
+/* Made media queries to remove some of the ice cream cones to reduce the space taken in smaller screens */
+
+
+@media screen and (max-width: 900px) and (min-width: 760px) {
+
+  .creative {
+    width: 0;
+  }
+
+
+
+}
+
+@media screen and (min-width: 760px) {
+   
+  /* nav section */
+
+  nav ul {
+  display: flex;
+  text-align: center;
+  padding: 10px 80px 10px 80px;
+  align-items: center;
+  font-size: 25px;
+    
+  }
+
+  nav ul li {
+    flex: 1;
+  }
+
+
+  .main-nav ul li:first-of-type {
+    border-style : none;
+     border-right: none;
+     border-bottom: none;
+    }
+    
+    .main-nav ul li:first-of-type li:hover {
+      border-bottom: none;
+    }
+    
+    .main-nav ul li:last-of-type {
+    border-style : none;
+     border-right: none;
+    }
+    
+    .main-nav {
+      color:  #4C366B;
+      font-size: 1rem;
+      text-align: center;
+      font-family: bello-pro, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      border-right: 1px solid #4C366B;
+       
+    }
+    .main-nav ul li {
+      border-right: 2px solid #4C366B;
+    }
+    
+    .main-nav ul img {
+      width: 70%;
+    }
+
+ #button-nav {
+  float: left;
+ }
+
+
+
+ /* banner section */
+
+ .banner-center {
+  margin-left: 50px;
+  margin-right: 50px;
+
+ }
+
+ 
+
+ .servicesection {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 65%;
+   padding: 20px 20px 20px 20px;
+   
+   
+ }
+
+ .container-1,
+ .container-2 {
+  padding: 20px 30px 20px 30px;
+ }
+
+ 
+
+  /* services section */
+
+  .container-1 img ,
+  .container-2 img {
+    width: 100%;
+    padding: 0px;
+  }
+  
+  .servicesection h2 {
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
+  
+  .container-1,
+  .container-2 {
+    background-color:#7CA982;
+    margin-bottom: 1em;
+    
+  }
+
+  .servicesection h3{
+    position: absolute;
+    font-size: 25px;
+ 
+    padding-left: 14px;
+  }
+
+  .servicesection p {
+    margin-top: 20px;
+  }
+
+  .servicesection a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+
+/* ----contact section---- */
+
+    section.contact {
+      padding: 0px 300px 10px 400px;
+    }
+
+    /* Grid was used as to organize the items closely to the mockup */
+
+    .contact{
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas: 
+      "martha map"    
+      "delivery map"
+      ;
+      gap: 1em;
+    }
+
+    .delivery i {
+      font-size: 4rem;
+      display: inline-block;
+    }
+
+
+ .person {
+  grid-area: martha;
+  width: 350px;
+ }
+
+ .person h3 {
+   margin: 0px;
+   padding-right: 0px;
+ }
+
+ .person img {
+   width: 100px;
+   height: 100px;
+   border-radius: 15px;
+   
+ }
+
+ .person q {
+   background:#7CA982;
+   border-radius: 25px;
+  padding: 16px;
+  width: 240px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+ }
+
+
+
+.location {
+  grid-area: map;
+  margin-left: 100px;
+}
+
+.location iframe {
+  width: 350px;
+  height: 250px;
+}
+
+.location h2 {
+  font-family: epicursive, sans-serif;
+  color: #4C366B;
+  text-align: center;
+}
+
+.location h4 {
+  color: #7CA982;
+  text-align: center;
+}
+
+.location p {
+  color: #7CA982;
+  text-align: center;
+}
+
+
+
+/* footer */
+
+footer {
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+}  
+
+
+
+/* ---------------------
+---   MENU PAGE DESKTOP STYLES -------
+-------------------- */
+
+
+
+@media screen and (min-width: 760px) {
+
+  h1 {
+    padding-left: 40%;
+  }
+
+  
+
+  .itemsection img {
+    width: 100%;
+    border: 4px solid #024E36;
+    height: 80%;
+  }
+  
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5,
+  .item-6 {
+    background-color:#cfe0af;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    
+  }
+
+.item-1 a,
+.item-2 a,
+.item-3 a,
+.item-4 a,
+.item-5 a,
+.item-6 a {
+  height: 20%;
+  
+}
+
+.btns {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn5{
+  margin-left: 15px;
+  width: 25%;
+  
+}
+
+.form {
+  margin: 40px 200px 50px 200px;
+}
+
+
+  
+
+} 
